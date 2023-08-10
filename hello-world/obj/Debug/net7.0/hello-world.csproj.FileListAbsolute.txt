@@ -1,0 +1,14 @@
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/bin/Debug/net7.0/hello-world
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/bin/Debug/net7.0/hello-world.deps.json
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/bin/Debug/net7.0/hello-world.runtimeconfig.json
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/bin/Debug/net7.0/hello-world.dll
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/bin/Debug/net7.0/hello-world.pdb
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/obj/Debug/net7.0/hello-world.GeneratedMSBuildEditorConfig.editorconfig
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/obj/Debug/net7.0/hello-world.AssemblyInfoInputs.cache
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/obj/Debug/net7.0/hello-world.AssemblyInfo.cs
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/obj/Debug/net7.0/hello-world.csproj.CoreCompileInputs.cache
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/obj/Debug/net7.0/hello-world.dll
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/obj/Debug/net7.0/refint/hello-world.dll
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/obj/Debug/net7.0/hello-world.pdb
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/obj/Debug/net7.0/hello-world.genruntimeconfig.cache
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/obj/Debug/net7.0/ref/hello-world.dll
