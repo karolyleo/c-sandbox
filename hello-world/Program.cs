@@ -4,24 +4,36 @@
     {
         public static void Main(string[] args)
         {
-            Random random= new Random();
-            Console.Out.WriteLine("Let's play a guessing game");
-            int ranDum = random.Next(1, 10);
+            Random random = new Random();
+            // Console.Out.WriteLine("Let's play a guessing game");
+            int ranDum = random.Next(1, 10), num = 0;
             bool playOn = true;
 
             while (playOn)
             {
-                Console.WriteLine("Guess a number");
-                int userInput;
+                // Console.WriteLine("Guess a number");
+                // int userInput;
+                for(int i = 0; i < num;i++)
+                {
+                Console.WriteLine("Hey!");
+                }
+                num++;
 
-                try {
-                    userInput = Convert.ToInt32(Console.ReadLine());
+                if (num > 99)
+                {
+                    playOn = false;
+                }
 
-                    highLow(userInput, ranDum);
+                try
+                {
+                    // userInput = Convert.ToInt32(Console.ReadLine());
 
-                    playOn = keepPlaying(userInput);
-                    
-                } catch (Exception ex)
+                    // highLow(userInput, ranDum);
+
+                    // playOn = keepPlaying(userInput);
+
+                }
+                catch (Exception ex)
                 {
                     Console.Out.WriteLine(ex.Message);
                 }
@@ -29,25 +41,27 @@
         }
         static void highLow(int guess, int random)
         {
-            string response;
-            if (guess < random)
+            int comparisonResult = guess.CompareTo(random);
+
+            switch (comparisonResult)
             {
-                response = "Too low";
-            } else if (guess > random)
-            {
-                response = "Too high";
-            } else 
-            {
-                response = "Nice guess, you win!";
+                case -1:
+                    Console.WriteLine("Too low");
+                    break;
+                case 1:
+                    Console.WriteLine("Too high");
+                    break;
+                default:
+                    Console.WriteLine("Nice guess, you win!");
+                    break;
             }
-            Console.Out.WriteLine(response);
         }
 
         static bool keepPlaying(int userInput)
         {
             Console.WriteLine("If you want to stop playing, input 0, you have selected: " + userInput);
 
-            return userInput != 0;            
+            return userInput != 0;
         }
     }
 }
