@@ -11,11 +11,11 @@
 
             while (playOn)
             {
-                // Console.WriteLine("Guess a number");
-                // int userInput;
+                Console.WriteLine("Guess a number");
+                int userInput;
                 for(int i = 0; i < num;i++)
                 {
-                Console.WriteLine("Hey!");
+                Console.WriteLine("Hey you!");
                 }
                 num++;
 
@@ -26,11 +26,11 @@
 
                 try
                 {
-                    // userInput = Convert.ToInt32(Console.ReadLine());
+                    userInput = Convert.ToInt32(Console.ReadLine());
 
-                    // highLow(userInput, ranDum);
+                    highLow(userInput, ranDum);
 
-                    // playOn = keepPlaying(userInput);
+                    playOn = keepPlaying(userInput);
 
                 }
                 catch (Exception ex)
