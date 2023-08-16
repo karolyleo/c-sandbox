@@ -15,7 +15,7 @@ This repository serves as a platform for me to enhance my C# programming skills.
 ## Getting Started
 
 1. Clone this repository to your local machine using: `git clone https://github.com/karolyleo/c-sandbox.git`
-2. Navigate to the project directory: `cd CSharp-Sandbox`
+2. Navigate to the project directory: `cd c-sandbox`
 3. Follow the specific instructions provided within each project's directory to build and run the project.
 
 ## Collaborating
