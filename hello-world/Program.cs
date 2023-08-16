@@ -4,13 +4,17 @@
     {
         public static void Main(string[] args)
         {
-            string filePath = txtToLog();         
+            // finds the previous-game.txt
+            string filePath = txtToLog(); 
 
+            // Returns the results of the guessing game in a string array so that it can be saved        
             string[] gameResult = guesingGame();
 
+            // Saves everything to the txt ------------------->
             File.AppendAllLines(filePath, gameResult);
         }
 
+        // Creates or verifys the Game-logs
         static string txtToLog()
         {
             // Hardcoded path
@@ -44,6 +48,8 @@
             // return path
             return filePath;
         }
+        
+        // Returns the results of the guessing game in a string array so that it can be saved
         static string[] guesingGame()
         {
             Random random = new Random();
@@ -95,6 +101,8 @@
             return gameLog.ToArray();
         }
 
+        
+        // Evaluates the user input vs the random number
         static bool highLow(int guess, int random)
         {
             int comparisonResult = guess.CompareTo(random);
