@@ -1,0 +1,14 @@
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/resturant/bin/Debug/net7.0/resturant
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/resturant/bin/Debug/net7.0/resturant.deps.json
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/resturant/bin/Debug/net7.0/resturant.runtimeconfig.json
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/resturant/bin/Debug/net7.0/resturant.dll
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/resturant/bin/Debug/net7.0/resturant.pdb
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/resturant/obj/Debug/net7.0/resturant.GeneratedMSBuildEditorConfig.editorconfig
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/resturant/obj/Debug/net7.0/resturant.AssemblyInfoInputs.cache
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/resturant/obj/Debug/net7.0/resturant.AssemblyInfo.cs
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/resturant/obj/Debug/net7.0/resturant.csproj.CoreCompileInputs.cache
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/resturant/obj/Debug/net7.0/resturant.dll
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/resturant/obj/Debug/net7.0/refint/resturant.dll
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/resturant/obj/Debug/net7.0/resturant.pdb
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/resturant/obj/Debug/net7.0/resturant.genruntimeconfig.cache
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/resturant/obj/Debug/net7.0/ref/resturant.dll
