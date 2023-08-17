@@ -1,0 +1,14 @@
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/mortgage-calculator/obj/Debug/net7.0/mortgage-calculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/mortgage-calculator/obj/Debug/net7.0/mortgage-calculator.AssemblyInfoInputs.cache
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/mortgage-calculator/obj/Debug/net7.0/mortgage-calculator.AssemblyInfo.cs
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/mortgage-calculator/obj/Debug/net7.0/mortgage-calculator.csproj.CoreCompileInputs.cache
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/mortgage-calculator/bin/Debug/net7.0/mortgage-calculator
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/mortgage-calculator/bin/Debug/net7.0/mortgage-calculator.deps.json
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/mortgage-calculator/bin/Debug/net7.0/mortgage-calculator.runtimeconfig.json
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/mortgage-calculator/bin/Debug/net7.0/mortgage-calculator.dll
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/mortgage-calculator/bin/Debug/net7.0/mortgage-calculator.pdb
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/mortgage-calculator/obj/Debug/net7.0/mortgage-calculator.dll
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/mortgage-calculator/obj/Debug/net7.0/refint/mortgage-calculator.dll
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/mortgage-calculator/obj/Debug/net7.0/mortgage-calculator.pdb
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/mortgage-calculator/obj/Debug/net7.0/mortgage-calculator.genruntimeconfig.cache
+/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/mortgage-calculator/obj/Debug/net7.0/ref/mortgage-calculator.dll
