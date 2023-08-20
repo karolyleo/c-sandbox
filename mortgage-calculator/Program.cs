@@ -5,20 +5,79 @@ namespace MortgageProgram
 {
     class Mortgage
     {
-        static double purchasePrice, marketValue, downPayment, yearlyHOAFee, annualInterestRate, monthlyIncome;
+        static double purchasePrice, marketValue, downPayment, yearlyHOAFees, annualInterestRate, monthlyIncome;
         static int loanTermLength;
-        
+
+        // Needed computed values
+        static bool needsInsurance, loanApproval;
+        static double loanInsurance, totalLoan, escrow, monthlyPayment;
         static void Main(string[] args)
         {
-            inputs();
+            inputs(); //Step 1
+
+            totalLoan = CalculateTotalLoan();
+            monthlyPayment = CalculateMonthlyPayments();
+
+            display();
+        }
+        // Display info
+        static void display()
+        {
+            if (!loanApproval)
+            {
+                Console.WriteLine("You should look into a better job, larger down payment, or a cheaper home... Goodbye!");
+                return;
+            }
+            Console.WriteLine($"Approved!\n Your loan for {totalLoan} will come out to a monthly cost of ${monthlyPayment}. ");
         }
 
+        // Calculate Loan Amount
+        static double CalculateTotalLoan()
+        {
+            // declare local variables
+            double homeDebt = purchasePrice - downPayment, fees, totalLoanAmount, equity;
+
+            fees = (0.01 * homeDebt) + 2500;
+            totalLoanAmount = homeDebt + fees;
+
+            // Calculates equity for step 3
+            equity = marketValue - totalLoanAmount;
+
+            // Checks and calculates loanInsurance for step 4 & 5
+            needsInsurance = equity < (marketValue * 0.1);
+            loanInsurance = needsInsurance ? (0.01 * totalLoanAmount) / 12 : 0;
+
+            return totalLoanAmount;
+        }
+        
+        // Calculate Equity Percentage and Value 
+        static double CalculateMonthlyPayments()
+        {
+            double r = (annualInterestRate / 100) / 12, monthlyPayment, monthlyHOA, totalMonthlyPayment, propertyTax, homeOwnersInsurance;
+            int n = 12 * loanTermLength; // n is the number of payments over the loan life
+
+            monthlyPayment = totalLoan * (r) * Math.Pow(1 + r, n) / (Math.Pow(1 + r, n) - 1);
+            
+            // Step 6 for the escrow
+            propertyTax = marketValue * 0.0125 / 12;
+            homeOwnersInsurance = marketValue * 0.0075 / 12;
+            monthlyHOA = yearlyHOAFees / 12;
+            escrow = propertyTax + monthlyHOA + homeOwnersInsurance;
+
+            // Step 7 calculate the monthly payment
+            totalMonthlyPayment = monthlyPayment + loanInsurance + escrow;
+
+            // Step 8 for loan approval
+            loanApproval = (totalMonthlyPayment <= (monthlyIncome * .25) );
+
+            return totalMonthlyPayment;
+        }
         static void inputs()
         {
             purchasePrice = validInput("Purchase Price");
             marketValue = validInput("Market Value");
             downPayment = validInput("Down Payment");
-            yearlyHOAFee = validInput("Yearly HOA Fees");
+            yearlyHOAFees = validInput("Yearly HOA Fees");
             annualInterestRate = validInput("Annual Interest Rate");
             monthlyIncome = validInput("Monthly Income", "from your job?");
             loanTermLength = (int)validInput("Length of loan", "in years?");
@@ -28,14 +87,14 @@ namespace MortgageProgram
             {
                 try 
                 {
-                    Console.Write($"\nWhat is your {data} {endingStatement}  ");
+                    Console.Write($"What is your {data} {endingStatement}  ");
                     
                     double result = double.Parse(Console.ReadLine());
                     return result;
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"That is not a valid input... {ex.Message} \nTry again for {data}!&*^%@#T$");
+                    Console.WriteLine($"That is not a valid input... {ex.Message} \n&*^%@#T$ Try again for {data}!\n");
                     return validInput(data, endingStatement);
                 }
             }
