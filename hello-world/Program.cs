@@ -1,125 +1,42 @@
-﻿namespace HelloWorld
-{
-    public class Program
+﻿﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+//int age = 50;
+Console.WriteLine($"int: {int.MaxValue},{int.MinValue}");
+Console.WriteLine($"ushort: {ushort.MaxValue},{ushort.MinValue}");
+
+Console.WriteLine($"float: {float.MaxValue},{float.MinValue}");
+Console.WriteLine($"double: {double.MaxValue},{double.MinValue}");
+
+Console.WriteLine($"decimal: {decimal.MaxValue},{decimal.MinValue}");
+
+string s1 = "Hello \"World\"";
+string s2 = "Hello \"World\"";
+Demo d1 = new Demo() { x=10 };
+Demo d2 = new Demo() { x=10 };
+
+d1.A();
+Console.WriteLine(s1==s2);
+Console.WriteLine(d1==d2);
+
+class Demo {
+    public int x { get; set; }
+    internal void A() {
+        int i = 0;
+        Console.WriteLine("This is A before calling B");
+        B();
+        Console.WriteLine("This is A after calling B");
+    }
+
+    internal void B()
     {
-        public static void Main(string[] args)
-        {
-            // finds the previous-game.txt
-            string filePath = txtToLog(); 
-
-            // Returns the results of the guessing game in a string array so that it can be saved        
-            string[] gameResult = guesingGame();
-
-            // Saves everything to the txt ------------------->
-            File.AppendAllLines(filePath, gameResult);
-        }
-
-        // Creates or verifys the Game-logs
-        static string txtToLog()
-        {
-            // Hardcoded path
-            string folderPath = "/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/Game-logs/";
-
-            // File to be located
-            string filePath = Path.Combine(folderPath, "Previous-Game.txt");
-
-            // Creation/Verification of file
-            try
-            {
-                Directory.CreateDirectory(folderPath);
-
-                // Ensure our stuff runs!
-                if (!File.Exists(filePath))
-                {
-                    File.WriteAllText(filePath, "This is a new file.");
-                    Console.WriteLine("First time playing, welcome!");
-                } 
-                else 
-                {
-                    Console.WriteLine("Resetting Saved Game");
-                }
-            }
-            catch (Exception ex)
-            {
-                // Note the $ before our " " and variables can be place inside of { }
-                Console.WriteLine($"An error occured: {ex.Message}");
-            }
-
-            // return path
-            return filePath;
-        }
-        
-        // Returns the results of the guessing game in a string array so that it can be saved
-        static string[] guesingGame()
-        {
-            Random random = new Random();
-
-            Console.Out.WriteLine("Let's play a guessing game");
-            int ranDum = random.Next(1, 10), tries = 0;
-            bool playOn = true;
-            List<string> gameLog = new List<string>();
-            gameLog.Add("----------New Game----------");
-            gameLog.Add($"The random number generated is {ranDum}");
-
-            while (playOn)
-            {
-                Console.WriteLine("Guess a number");
-                int userInput;
-            
-                tries++;
-
-                try
-                {
-                    userInput = Convert.ToInt32(Console.ReadLine());
-
-                    // Custom msg for the file
-                    gameLog.Add($"On try {tries}, the user guessed {userInput}");
-
-                    if ( !highLow(userInput, ranDum)) 
-                    {
-                        gameLog.Add("Congrats on Winning!");
-                        playOn = false;
-                        break;
-                    }
-
-                    if (tries > 3)
-                {
-                    playOn = false;
-                    string loss = "All tries used up... You lost!";
-                    Console.WriteLine(loss);
-
-                    // Add to our log
-                    gameLog.Add(loss);
-                }
-
-                }
-                catch (Exception ex)
-                {
-                    Console.Out.WriteLine(ex.Message);
-                }
-            }
-            return gameLog.ToArray();
-        }
-
-        
-        // Evaluates the user input vs the random number
-        static bool highLow(int guess, int random)
-        {
-            int comparisonResult = guess.CompareTo(random);
-
-            switch (comparisonResult)
-            {
-                case -1:
-                    Console.WriteLine("Too low");
-                    return true;
-                case 1:
-                    Console.WriteLine("Too high");
-                    return true;
-                default:
-                    Console.WriteLine("Nice guess, you win!");
-                    return false;
-            }
-        }
-
+        int j = 0;
+        Console.WriteLine("This is B before calling C");
+        C();
+        Console.WriteLine("This is B after calling C");
+    }
+    internal void C()
+    {
+        int k = 0;
+        Console.WriteLine("This is C");
     }
 }
