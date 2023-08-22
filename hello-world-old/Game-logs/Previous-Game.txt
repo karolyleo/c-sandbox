@@ -1,0 +1,38 @@
+----------New Game----------
+The random number generated is 8
+On try 1, the user guessed 1
+On try 2, the user guessed 2
+On try 3, the user guessed 3
+On try 4, the user guessed 4
+All tries used up... You lost!
+----------New Game----------
+The random number generated is 4
+On try 1, the user guessed 1
+On try 2, the user guessed 3
+On try 3, the user guessed 5
+On try 4, the user guessed 4
+All tries used up... You lost!
+----------New Game----------
+The random number generated is 5
+On try 1, the user guessed 2
+On try 2, the user guessed 5
+Congrats on Winning!
+----------New Game----------
+The random number generated is 7
+On try 1, the user guessed 1
+On try 2, the user guessed 4
+On try 3, the user guessed 6
+On try 4, the user guessed 8
+All tries used up... You lost!
+----------New Game----------
+The random number generated is 5
+On try 1, the user guessed 3
+On try 2, the user guessed 5
+Congrats on Winning!
+----------New Game----------
+The random number generated is 9
+On try 1, the user guessed 3
+On try 2, the user guessed 5
+On try 3, the user guessed 7
+On try 4, the user guessed 9
+Congrats on Winning!
