@@ -1,0 +1,14 @@
+C:\MSSA projects\sandbox\api\api-sandbox\bin\Debug\net6.0\api-sandbox.exe
+C:\MSSA projects\sandbox\api\api-sandbox\bin\Debug\net6.0\api-sandbox.deps.json
+C:\MSSA projects\sandbox\api\api-sandbox\bin\Debug\net6.0\api-sandbox.runtimeconfig.json
+C:\MSSA projects\sandbox\api\api-sandbox\bin\Debug\net6.0\api-sandbox.dll
+C:\MSSA projects\sandbox\api\api-sandbox\bin\Debug\net6.0\api-sandbox.pdb
+C:\MSSA projects\sandbox\api\api-sandbox\obj\Debug\net6.0\api-sandbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\MSSA projects\sandbox\api\api-sandbox\obj\Debug\net6.0\api-sandbox.AssemblyInfoInputs.cache
+C:\MSSA projects\sandbox\api\api-sandbox\obj\Debug\net6.0\api-sandbox.AssemblyInfo.cs
+C:\MSSA projects\sandbox\api\api-sandbox\obj\Debug\net6.0\api-sandbox.csproj.CoreCompileInputs.cache
+C:\MSSA projects\sandbox\api\api-sandbox\obj\Debug\net6.0\api-sandbox.dll
+C:\MSSA projects\sandbox\api\api-sandbox\obj\Debug\net6.0\refint\api-sandbox.dll
+C:\MSSA projects\sandbox\api\api-sandbox\obj\Debug\net6.0\api-sandbox.pdb
+C:\MSSA projects\sandbox\api\api-sandbox\obj\Debug\net6.0\api-sandbox.genruntimeconfig.cache
+C:\MSSA projects\sandbox\api\api-sandbox\obj\Debug\net6.0\ref\api-sandbox.dll

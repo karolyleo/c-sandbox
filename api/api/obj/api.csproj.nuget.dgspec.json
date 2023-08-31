@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MSSA projects\\sandbox\\hello-world\\hello-world.csproj": {}
+    "C:\\MSSA projects\\sandbox\\api\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\MSSA projects\\sandbox\\hello-world\\hello-world.csproj": {
+    "C:\\MSSA projects\\sandbox\\api\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MSSA projects\\sandbox\\hello-world\\hello-world.csproj",
-        "projectName": "hello-world",
-        "projectPath": "C:\\MSSA projects\\sandbox\\hello-world\\hello-world.csproj",
+        "projectUniqueName": "C:\\MSSA projects\\sandbox\\api\\api\\api.csproj",
+        "projectName": "api",
+        "projectPath": "C:\\MSSA projects\\sandbox\\api\\api\\api.csproj",
         "packagesPath": "C:\\Users\\Leona\\.nuget\\packages\\",
-        "outputPath": "C:\\MSSA projects\\sandbox\\hello-world\\obj\\",
+        "outputPath": "C:\\MSSA projects\\sandbox\\api\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",

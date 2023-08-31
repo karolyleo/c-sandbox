@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eT8KBH5dUWEZSiTf8u+RwNjLGac1CqMP8ODcKRhmnMmH4t7fo1Q9Be/5g0HTgd3RsnehIZh8021FMYhFwgP0+g==",
+  "dgSpecHash": "Aphm4A/8pywt/BnAkERC03z153fYOxLquXw197v54qjbErA6KXx353MKkz0DlVDq+0ga6MnCKwoXJjzgW0AOZg==",
   "success": true,
-  "projectFilePath": "/home/karolleo000/IdeaProjects/c-sandbox/c-sandbox/hello-world/hello-world.csproj",
+  "projectFilePath": "C:\\MSSA projects\\sandbox\\hello-world\\hello-world.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
