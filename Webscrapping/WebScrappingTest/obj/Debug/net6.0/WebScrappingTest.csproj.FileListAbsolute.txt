@@ -1,0 +1,17 @@
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\bin\Debug\net6.0\WebScrappingTest.exe
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\bin\Debug\net6.0\WebScrappingTest.deps.json
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\bin\Debug\net6.0\WebScrappingTest.runtimeconfig.json
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\bin\Debug\net6.0\WebScrappingTest.dll
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\bin\Debug\net6.0\WebScrappingTest.pdb
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\obj\Debug\net6.0\WebScrappingTest.csproj.AssemblyReference.cache
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\obj\Debug\net6.0\WebScrappingTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\obj\Debug\net6.0\WebScrappingTest.AssemblyInfoInputs.cache
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\obj\Debug\net6.0\WebScrappingTest.AssemblyInfo.cs
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\obj\Debug\net6.0\WebScrappingTest.csproj.CoreCompileInputs.cache
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\obj\Debug\net6.0\WebScrappingTest.csproj.CopyComplete
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\obj\Debug\net6.0\WebScrappingTest.dll
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\obj\Debug\net6.0\refint\WebScrappingTest.dll
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\obj\Debug\net6.0\WebScrappingTest.pdb
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\obj\Debug\net6.0\WebScrappingTest.genruntimeconfig.cache
+C:\MSSA projects\sandbox\Webscrapping\WebScrappingTest\obj\Debug\net6.0\ref\WebScrappingTest.dll
